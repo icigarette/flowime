@@ -5,6 +5,8 @@
 ![OS](https://img.shields.io/badge/macOS%20%7C%20Windows-supported-34D399)
 ![License](https://img.shields.io/badge/license-MIT-FFD166)
 
+![FlowIME cover](docs/assets/flowime-social-card.svg)
+
 FlowIME 是一个面向 IntelliJ IDEA 的上下文感知输入法切换插件。
 
 它会根据光标所在位置，在代码、注释、字符串等场景之间自动切换中英文输入法，减少中文开发者在写代码时频繁手动切换输入法的打断感。
@@ -32,6 +34,12 @@ FlowIME 的核心目标只有一个：让输入法跟随编辑语义，而不是
 - 稳定切换：带有防抖、去重、当前模式缓存、手动切换尊重期，尽量避免抖动和误切换。
 - 安全降级：`im-select` 不可用时，可使用自定义命令适配器；实验性 native 适配器默认关闭。
 - 可诊断：内置诊断窗口，可手动刷新、复制报告、导出结构化报告，便于排查兼容性问题。
+
+## 插图与素材
+
+- 项目封面图：`docs/assets/flowime-social-card.svg`
+- 插件图标：`src/main/resources/META-INF/pluginIcon.svg`
+- 深色模式图标：`src/main/resources/META-INF/pluginIcon_dark.svg`
 
 ## 安装流程
 

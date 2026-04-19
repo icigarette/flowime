@@ -5,7 +5,9 @@ build/
 out/
 *.iml
 .DS_Store
-docs/
+docs/*
+!docs/assets/
+!docs/assets/flowime-social-card.svg
 TASKS.md
 idea_ime_plugin_plan.md
 hs_err_pid*
